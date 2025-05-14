@@ -16,6 +16,6 @@ y = ['soup', 'sandwich', 'tea', 'none']
 clf = clf.fit(x, y)
 
 plt.figure(figsize=(10, 6))
-tree.plot_tree(clf, feature_names=['Hungry', 'Time', 'With Fields'],
+tree.plot_tree(clf, feature_names=['Hungry', 'Time', 'With Friends'],
     class_names=clf.classes_, filled=True)
 plt.savefig('img/res00.png')
