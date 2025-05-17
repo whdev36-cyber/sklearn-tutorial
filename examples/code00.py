@@ -1,16 +1,8 @@
-from sklearn import tree
+import pandas as pd
+from sklearn.model_selection import train_test_split
 
-# CREATE MODEL
-clf = tree.DecisionTreeClassifier()
+df = pd.read_csv('data/sklearn_test_data.csv.csv', encoding='utf-8')
 
-# TRAIN MODEL
-x = [
-    [1], # sunny
-    [0]  # cloudy
-]
-y = ['sunny', 'cloudy']
-clf = clf.fit(x, y)
+X = df.drop(columns=['education'])
 
-# PREDICT
-result = clf.predict([[0]])
-print(result)
+print(df)

@@ -1,0 +1,11 @@
+age,income,credit_score,education,employment_years,loan_amount,default
+32,45000,720,Bachelor,4,25000,0
+45,78000,680,Master,12,42000,0
+28,32000,610,High School,2,18000,1
+51,92000,745,PhD,20,60000,0
+36,53000,690,Bachelor,5,35000,1
+22,28000,550,Some College,1,15000,1
+40,62000,710,Master,8,38000,0
+59,110000,800,PhD,25,75000,0
+31,41000,650,Bachelor,3,28000,0
+26,35000,590,High School,2,22000,1
